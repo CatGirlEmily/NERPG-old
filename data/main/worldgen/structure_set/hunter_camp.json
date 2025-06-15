@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "main:hunter_camp",
+      "weight": 3
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 25,
+    "separation": 5,
+    "salt": 1646207470
+  }
+}

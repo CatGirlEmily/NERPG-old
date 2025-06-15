@@ -1,0 +1,19 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "type_specific": {
+      "type": "minecraft:player",
+      "looking_at": {
+        "type": "#minecraft:undead",
+        "distance": {
+          "horizontal": {
+            "min": 0,
+            "max": 11
+          }
+        }
+      }
+    }
+  },
+  "terms": []
+}
