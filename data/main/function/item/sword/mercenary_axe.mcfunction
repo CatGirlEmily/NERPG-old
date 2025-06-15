@@ -1,0 +1,1 @@
+execute if score @s combat matches ..3 run attribute @s minecraft:attack_damage modifier remove minecraft:mercenary_axe

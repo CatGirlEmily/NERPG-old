@@ -1,0 +1,3 @@
+execute at @s if block ~ ~ ~ water if items entity @s weapon.mainhand minecraft:prismarine_shard[minecraft:custom_data={prismarine_blade:true}] run attribute @s minecraft:attack_damage modifier add prismarine_blade 2 add_multiplied_total
+execute at @s unless block ~ ~ ~ water run attribute @s minecraft:attack_damage modifier remove prismarine_blade
+execute unless items entity @s weapon.mainhand minecraft:prismarine_shard[minecraft:custom_data={prismarine_blade:true}] run attribute @s minecraft:attack_damage modifier remove prismarine_blade

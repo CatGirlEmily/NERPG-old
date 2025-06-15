@@ -1,0 +1,1 @@
+$execute at @s positioned ^ ^1.5 ^2 as @e[distance=..4,nbt=!{SelectedItem:{id:"minecraft:golden_sword",count:1,components:{"minecraft:custom_data":{cleaver_sword:true}}}}] at @s run damage @s $(amount) generic by @p[scores={cleaver_used=1..}]

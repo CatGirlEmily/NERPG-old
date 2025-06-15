@@ -1,0 +1,3 @@
+execute if predicate main:look_at/arthropod if items entity @s weapon.mainhand minecraft:iron_sword[minecraft:custom_data={spider_sword:true}] run attribute @s minecraft:attack_damage modifier add spider_sword 1 add_multiplied_total
+execute unless predicate main:look_at/arthropod run attribute @s minecraft:attack_damage modifier remove spider_sword
+execute unless items entity @s weapon.mainhand minecraft:iron_sword[minecraft:custom_data={spider_sword:true}] run attribute @s minecraft:attack_damage modifier remove spider_sword

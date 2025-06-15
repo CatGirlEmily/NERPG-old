@@ -1,0 +1,3 @@
+execute if predicate main:look_at/ender if items entity @s weapon.mainhand minecraft:diamond_sword[minecraft:custom_data={end_sword:true}] run attribute @s minecraft:attack_damage modifier add end_sword 1 add_multiplied_total
+execute unless predicate main:look_at/ender run attribute @s minecraft:attack_damage modifier remove end_sword
+execute unless items entity @s weapon.mainhand minecraft:diamond_sword[minecraft:custom_data={end_sword:true}] run attribute @s minecraft:attack_damage modifier remove end_sword

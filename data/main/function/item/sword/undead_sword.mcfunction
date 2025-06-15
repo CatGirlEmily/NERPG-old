@@ -1,0 +1,3 @@
+execute if predicate main:look_at/undead if items entity @s weapon.mainhand minecraft:iron_sword[minecraft:custom_data={undead_sword:true}] run attribute @s minecraft:attack_damage modifier add undead_sword 1.1 add_multiplied_total
+execute unless predicate main:look_at/undead run attribute @s minecraft:attack_damage modifier remove undead_sword
+execute unless items entity @s weapon.mainhand minecraft:iron_sword[minecraft:custom_data={undead_sword:true}] run attribute @s minecraft:attack_damage modifier remove undead_sword

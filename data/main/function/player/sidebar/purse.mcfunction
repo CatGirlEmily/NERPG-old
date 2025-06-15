@@ -1,0 +1,1 @@
+$scoreboard players display name %purse sidebar_$(number) "§fPurse: §6$(coins)"

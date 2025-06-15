@@ -1,0 +1,3 @@
+execute if score @s y matches ..0 if items entity @s weapon.mainhand minecraft:golden_sword[minecraft:custom_data={fancy_sword:true}] run attribute @s minecraft:attack_damage modifier add fancy_sword 1.5 add_multiplied_total
+execute unless score @s y matches ..0 run attribute @s minecraft:attack_damage modifier remove fancy_sword
+execute unless items entity @s weapon.mainhand minecraft:golden_sword[minecraft:custom_data={fancy_sword:true}] run attribute @s minecraft:attack_damage modifier remove fancy_sword

@@ -1,0 +1,13 @@
+$scoreboard players set %lvl sidebar_$(number) 9
+$execute if score @s lvl matches 0..9 run scoreboard players display name %lvl sidebar_$(number) "Level §8[§f$(level)§8]"
+$execute if score @s lvl matches 10..19 run scoreboard players display name %lvl sidebar_$(number) "Level §8[§e$(level)§8]"
+$execute if score @s lvl matches 20..29 run scoreboard players display name %lvl sidebar_$(number) "Level §8[§a$(level)§8]"
+$execute if score @s lvl matches 30..39 run scoreboard players display name %lvl sidebar_$(number) "Level §8[§2$(level)§8]"
+$execute if score @s lvl matches 40..49 run scoreboard players display name %lvl sidebar_$(number) "Level §8[§b$(level)§8]"
+$execute if score @s lvl matches 50..59 run scoreboard players display name %lvl sidebar_$(number) "Level §8[§3$(level)§8]"
+$execute if score @s lvl matches 60..69 run scoreboard players display name %lvl sidebar_$(number) "Level §8[§9$(level)§8]"
+$execute if score @s lvl matches 70..79 run scoreboard players display name %lvl sidebar_$(number) "Level §8[§d$(level)§8]"
+$execute if score @s lvl matches 80..89 run scoreboard players display name %lvl sidebar_$(number) "Level §8[§5$(level)§8]"
+$execute if score @s lvl matches 90..99 run scoreboard players display name %lvl sidebar_$(number) "Level §8[§6$(level)§8]"
+$execute if score @s lvl matches 100..109 run scoreboard players display name %lvl sidebar_$(number) "Level §8[§c$(level)§8]"
+$execute if score @s lvl matches 110.. run scoreboard players display name %lvl sidebar_$(number) "Level §8[§4$(level)§8]"

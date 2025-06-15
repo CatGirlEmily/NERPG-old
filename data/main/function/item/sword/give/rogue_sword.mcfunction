@@ -1,0 +1,1 @@
+give @p golden_sword[custom_data={rogue_sword:true},food={nutrition:0,saturation:0,can_always_eat:true},consumable={consume_seconds:1000000,animation:"none",has_consume_particles:false}] 1

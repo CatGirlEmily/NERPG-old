@@ -1,0 +1,1 @@
+summon cow ~ ~ ~ {NoAI:1b,active_effects:[{id:"minecraft:regeneration",amplifier:255,duration:100}],attributes:[{id:"minecraft:max_health",base:1024}]}
