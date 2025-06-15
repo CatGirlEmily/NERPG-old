@@ -1,2 +1,0 @@
-data modify entity @e[type=text_display,tag=cw_hp_disp,limit=1] text set value '{"selector":"@e[tag=this,limit=1]"}'
-data modify entity @s CustomName set from entity @e[type=text_display,tag=cw_hp_disp,limit=1] text

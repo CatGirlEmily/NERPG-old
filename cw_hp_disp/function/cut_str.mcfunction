@@ -1,1 +1,0 @@
-$data modify storage cw_hp_disp CustomName set string storage minecraft:cw_hp_disp CustomName $(x) -2
